@@ -73,7 +73,7 @@ header .container {
 }
 
 .show-not-connected {
-  opacity: 1;
+  opacity: 100;
   transform: translateY(0);
 }
 
