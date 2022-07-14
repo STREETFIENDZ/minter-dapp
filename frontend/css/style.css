@@ -56,7 +56,7 @@ header .container {
 }
 
 .menu {
-  display: flex;
+  display: float;
   gap: 2rem;
   align-items: center;
 }
