@@ -1,4 +1,7 @@
 const abi = [{
+  "response": "OK",
+  "abi": [
+    {
       "inputs": [
         {
           "components": [
@@ -1480,4 +1483,6 @@ const abi = [{
       "stateMutability": "nonpayable",
       "type": "function",
       "signature": "0x476343ee"
-    }]
+    }
+  ]
+}]
