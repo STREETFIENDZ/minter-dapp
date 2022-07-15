@@ -1,7 +1,6 @@
 const abi = [{
   "response": "OK",
-  "abi": [
-    {
+  "abi": [{
       "inputs": [
         {
           "components": [
