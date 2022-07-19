@@ -8,11 +8,11 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #00163f;
-  --bg-color-transparent: #00163f80;
-  --font-color: #ffffff;
+  --bg-color: #9a9a9a;
+  --bg-color-transparent: #afb0b080;
+  --font-color: #000000;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: #671ab4;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -39,7 +39,7 @@ body {
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
-  overflow: hidden;
+  overflow: visible;
 }
 
 /* HEADER */
@@ -50,7 +50,7 @@ header {
 }
 
 header .container {
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
@@ -67,7 +67,7 @@ header .container {
   height: 100%;
   text-align: center;
   margin: 0 auto 0 35vw;
-  opacity: 0;
+  opacity: 1;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
 }
