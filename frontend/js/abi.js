@@ -1,7 +1,5 @@
-const abi = [{
-    "response": "OK",
-    "abi": [
-      {
+const abi = [
+    {
         "inputs": [
           {
             "components": [
@@ -1484,5 +1482,4 @@ const abi = [{
         "type": "function",
         "signature": "0x476343ee"
       }
-    ]
-  }]
+    ];
